@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .steps {
+    display: flex;
+    align-items: center;
+  }
+  .step {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .step.active {
+    border: 3px solid blue;
+  }
+  .gap {
+    width: 10px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 5px;
+  }
+  button {
+    margin-top: 20px;
+    background-color: blue;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: #ccc;
+    color: #888888;
+    cursor: not-allowed;
+  }
+  p {
+    padding-left: 50px;
+  }
